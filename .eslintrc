@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "plugin:react/recommended"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "import/newline-after-import": ["error", { "count": 2 }],
+    "no-multiple-empty-lines": ["error", { "max": 2 }]
+  }
+}
